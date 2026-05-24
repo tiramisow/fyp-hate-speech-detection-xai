@@ -259,7 +259,8 @@ test.csv
 *.zip
 
 # Large model files
-*.pt
-*.pth
-*.bin
-*.safetensors
+# These are tracked using Git LFS, so do not ignore them.
+# *.pt
+# *.pth
+# *.bin
+# *.safetensors
