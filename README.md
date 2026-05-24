@@ -72,11 +72,9 @@ fyp-hate-speech-detection-xai/
 │   └── src/
 │
 ├── models/
-│   └── bert_multilabel_grid_search_final/
-│       ├── best_bert_full_checkpoint.pt
-│       ├── bert_tokenizer/
-│       ├── best_config.json
-│       └── best_thresholds.json
-│
-└── docs/
-    └── screenshots/
+   └── bert_multilabel_grid_search_final/
+       ├── best_bert_full_checkpoint.pt
+       ├── bert_tokenizer/
+       ├── best_config.json
+       └── best_thresholds.json
+
