@@ -1,0 +1,5 @@
+
+SHAP was applied as an additional post-hoc explainable AI method to analyse the selected BERT model. 
+For each selected comment, SHAP assigns contribution values to tokens in the input text. 
+A positive SHAP value indicates that the token increases the model's prediction score for the target label, while a negative SHAP value reduces the prediction score. 
+This provides token-level interpretability and helps identify which parts of the comment influenced the model's toxicity classification decision.

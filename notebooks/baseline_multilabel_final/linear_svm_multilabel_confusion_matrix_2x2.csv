@@ -1,0 +1,7 @@
+label,TN,FP,FN,TP
+toxic,21077,565,522,1772
+severe_toxic,23381,316,83,156
+obscene,22456,213,289,978
+threat,23816,48,44,28
+insult,22418,336,331,851
+identity_hate,23511,214,86,125

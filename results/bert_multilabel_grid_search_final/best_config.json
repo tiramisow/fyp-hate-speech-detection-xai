@@ -1,0 +1,15 @@
+{
+    "best_trial": 33,
+    "best_epoch": 3,
+    "best_val_micro_f1_tuned": 0.7975638578311063,
+    "best_val_macro_f1_tuned": 0.7170606917984156,
+    "best_val_weighted_f1_tuned": 0.8001928084742903,
+    "thresholds": "{\"toxic\": 0.9250000000000004, \"severe_toxic\": 0.6750000000000003, \"obscene\": 0.7000000000000003, \"threat\": 0.9500000000000004, \"insult\": 0.47500000000000014, \"identity_hate\": 0.7250000000000003}",
+    "learning_rate": 2e-05,
+    "epochs": 3,
+    "batch_size": 8,
+    "weight_decay": 0.01,
+    "dropout": 0.2,
+    "max_length": 256,
+    "pos_weight_mode": "raw"
+}

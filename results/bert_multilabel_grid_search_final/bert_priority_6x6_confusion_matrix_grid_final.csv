@@ -1,0 +1,7 @@
+,toxic,severe_toxic,obscene,threat,insult,identity_hate
+toxic,981,0,2,0,0,2
+severe_toxic,1,110,0,0,0,0
+obscene,26,0,290,0,0,0
+threat,9,0,0,41,0,0
+insult,57,0,0,0,759,0
+identity_hate,21,0,0,0,0,126

@@ -1,0 +1,34 @@
+token,shap_value,abs_shap_value,effect,target_label,sample_index
+ni,0.503050373887163,0.503050373887163,Increases prediction,identity_hate,32
+gger,0.48638260107190945,0.48638260107190945,Increases prediction,identity_hate,32
+Kill ,0.009344363786567556,0.009344363786567556,Increases prediction,identity_hate,32
+all ,0.0004255011876921344,0.0004255011876921344,Increases prediction,identity_hate,32
+". 
+
+",0.0003177705748385051,0.0003177705748385051,Increases prediction,identity_hate,32
+s,-0.00023292859759749263,0.00023292859759749263,Decreases prediction,identity_hate,32
+racist,7.150941564759705e-05,7.150941564759705e-05,Increases prediction,identity_hate,32
+say ,-4.3659175692785844e-05,4.3659175692785844e-05,Decreases prediction,identity_hate,32
+sometimes ,-4.149105673908101e-05,4.149105673908101e-05,Decreases prediction,identity_hate,32
+? ,-3.666128092542446e-05,3.666128092542446e-05,Decreases prediction,identity_hate,32
+included,-3.4554629261644244e-05,3.4554629261644244e-05,Decreases prediction,identity_hate,32
+be ,-3.4554629261644244e-05,3.4554629261644244e-05,Decreases prediction,identity_hate,32
+That ,3.33531297656009e-05,3.33531297656009e-05,Increases prediction,identity_hate,32
+this,-2.190556776137479e-05,2.190556776137479e-05,Decreases prediction,identity_hate,32
+have ,-1.963826295347341e-05,1.963826295347341e-05,Decreases prediction,identity_hate,32
+said ,-1.963826295347341e-05,1.963826295347341e-05,Decreases prediction,identity_hate,32
+s ,1.9493187210173346e-05,1.9493187210173346e-05,Increases prediction,identity_hate,32
+. ,1.8074409429876443e-05,1.8074409429876443e-05,Increases prediction,identity_hate,32
+.,1.5987689039320685e-05,1.5987689039320685e-05,Increases prediction,identity_hate,32
+should ,1.5786149864046212e-05,1.5786149864046212e-05,Increases prediction,identity_hate,32
+these,-1.4147425948370559e-05,1.4147425948370559e-05,Decreases prediction,identity_hate,32
+that ,-1.3129094259056729e-05,1.3129094259056729e-05,Decreases prediction,identity_hate,32
+others ,-1.3129094259056729e-05,1.3129094259056729e-05,Decreases prediction,identity_hate,32
+", ",1.0283237679686863e-05,1.0283237679686863e-05,Increases prediction,identity_hate,32
+this ,7.577472691385385e-06,7.577472691385385e-06,Increases prediction,identity_hate,32
+.,-5.124562994751613e-06,5.124562994751613e-06,Decreases prediction,identity_hate,32
+,4.228810212225653e-06,4.228810212225653e-06,Increases prediction,identity_hate,32
+hard,-1.734548823151272e-06,1.734548823151272e-06,Decreases prediction,identity_hate,32
+have ,-1.734548823151272e-06,1.734548823151272e-06,Decreases prediction,identity_hate,32
+I ,-1.734548823151272e-06,1.734548823151272e-06,Decreases prediction,identity_hate,32
+,-3.725290298461914e-09,3.725290298461914e-09,Decreases prediction,identity_hate,32

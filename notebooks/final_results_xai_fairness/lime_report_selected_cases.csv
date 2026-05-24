@@ -1,0 +1,3 @@
+case_type,label,sample_index
+true_positive,toxic,10
+true_positive,severe_toxic,10

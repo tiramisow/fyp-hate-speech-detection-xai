@@ -1,0 +1,2 @@
+best_trial,best_epoch,best_val_micro_f1_tuned,best_val_macro_f1_tuned,best_val_weighted_f1_tuned,thresholds,learning_rate,epochs,batch_size,weight_decay,dropout,max_length,pos_weight_mode
+33,3,0.7975638578311063,0.7170606917984156,0.8001928084742903,"{""toxic"": 0.9250000000000004, ""severe_toxic"": 0.6750000000000003, ""obscene"": 0.7000000000000003, ""threat"": 0.9500000000000004, ""insult"": 0.47500000000000014, ""identity_hate"": 0.7250000000000003}",2e-05,3,8,0.01,0.2,256,raw

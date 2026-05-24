@@ -1,0 +1,5 @@
+
+LIME was applied to explain the predictions of the selected BERT model. 
+Several correctly classified examples and misclassified examples were selected from the test set. 
+For each selected comment, LIME identified the most influential words contributing to the predicted toxicity label. 
+This helps provide interpretability by showing whether the model relies on relevant toxic expressions or potentially misleading identity-related terms when making predictions.

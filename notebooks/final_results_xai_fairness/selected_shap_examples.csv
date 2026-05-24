@@ -1,0 +1,8 @@
+case_type,target_label,index,text,true_labels,predicted_labels,probability
+true_positive,toxic,10,Stupid peace of shit stop deleting my stuff asshole go die and fall in a hole go to hell!,"['toxic', 'severe_toxic', 'obscene', 'insult']","['toxic', 'severe_toxic', 'obscene', 'threat', 'insult']",0.9986710548400879
+true_positive,identity_hate,32,"Kill all niggers. 
+
+I have hard, that others have said this.. should this be included? That racists sometimes say these.","['toxic', 'obscene', 'insult', 'identity_hate']","['toxic', 'insult', 'identity_hate']",0.9992972612380981
+true_positive,threat,238,"Demonte Morton 
+
+U bastard stop deletin' my shit u white trash cracker muthafucker. Fuck u u racist bitch. I hope u die.","['toxic', 'obscene', 'threat', 'insult', 'identity_hate']","['toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate']",0.999748170375824

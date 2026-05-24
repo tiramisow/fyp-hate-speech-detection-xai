@@ -1,0 +1,11 @@
+case_type,label,sample_index,display_feature,weight,effect
+true_positive,toxic,10,die,0.0257728267344146,Increases prediction
+true_positive,toxic,10,S****d,0.0255372665286668,Increases prediction
+true_positive,toxic,10,asshole,0.0254160153100244,Increases prediction
+true_positive,toxic,10,hell,0.0244515860554841,Increases prediction
+true_positive,toxic,10,shit,0.0239699566073172,Increases prediction
+true_positive,toxic,10,hole,0.0197503638390437,Increases prediction
+true_positive,toxic,10,a,-0.0081141115040316,Decreases prediction
+true_positive,toxic,10,peace,-0.0070161072921806,Decreases prediction
+true_positive,toxic,10,stuff,0.0058822826551341,Increases prediction
+true_positive,toxic,10,stop,-0.0035949131789729,Decreases prediction

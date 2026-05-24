@@ -1,0 +1,40 @@
+case_type,label,index,text,true_labels,predicted_labels,probabilities
+false_positive,toxic,124,"try passing illegaly the border from USA to mexico... you'll end in prison too, but the're no communists there",[],['toxic'],"{'toxic': 0.9404594898223877, 'severe_toxic': 0.0008207411738112569, 'obscene': 0.012044096365571022, 'threat': 0.002645408036187291, 'insult': 0.008729248307645321, 'identity_hate': 0.005558669567108154}"
+false_negative,toxic,26,"""
+
+UNBLOCK ME OR I'LL GET MY LAWYERS ON TO YOU FOR BLOCKING MY CONSTITUTIONAL RIGHT TO FREE SPEECH""",['toxic'],[],"{'toxic': 0.0020487995352596045, 'severe_toxic': 0.0001226058229804039, 'obscene': 0.00042759638745337725, 'threat': 7.096178887877613e-05, 'insult': 0.0001753264805302024, 'identity_hate': 0.00010358548752265051}"
+false_positive,severe_toxic,127,"Groin 
+
+You sad fuck. I'm going to restore my edit, and you are going to leave it, or else I wil knee you in the groin yourself, prick. 91.108.208.101","['toxic', 'obscene', 'insult']","['toxic', 'severe_toxic', 'obscene', 'insult']","{'toxic': 0.9993185997009277, 'severe_toxic': 0.9783599376678467, 'obscene': 0.9995843768119812, 'threat': 0.9328662753105164, 'insult': 0.9982548356056213, 'identity_hate': 0.07578472048044205}"
+false_negative,severe_toxic,116,"""You know, I was thinking...
+
+Nobody really attacked me before I revealed my age here.  After I announced that I was 14, I was subject to a constant storm of harassment and abuse.
+
+The same thing goes for when I was on The Sandbox when I was 11.  Before people knew my age, they didn't care.  After I told them my age, they hated me.
+
+It's just so amusing how the idiot Soapboxers think of teenagers as being responsible for the """"decline"""" of The Soapbox (like it was ever any good to begin with).  This is funny, because the adults are the dumbest people here.  Mauricio, Chuppah, Redneckgirl, Pinky, Scooby, GG, ForeverLostTinkerbell, greenrabbit, StarRocketsInFlight, Bree-Robinson, enigma-72, CocaineNightmares, TokyoDome, Chad_Ocho-Cinco, Steve Lake...
+
+...all adults.
+
+The teenage posters here are typically the smartest ones.  Let's see... G-Dawg, Head_Banging_Brunette, ClassicAge, Metropolis (even though he's a bipolar weirdo), ChrisScript, just to name a few.
+
+All I ever see adults posting is """"rate my poo!!1!"""", """"my ballz smell funny"""", """"whoz hawter: me or ur mom???//?/?"""", """"i like to rape little girls"""", and """"HEY GUYZ LOOK AT ME IM AN ATTENTION WHORE!!!!11!!1!""""  The adult posters here are immature, moronic, savage bullies with the mental capacity of a retarded 4-year-old.
+
+Whereas, most of the teenagers here are thoughtful, intelligent, mature, and often profound.  But they're subject to constant schoolyard bullying by the idiot adult posters who think they're somehow superior because they were born (and dropped on their head) earlier.
+
+Soapbox logic never fails to amuse me...
+""","['toxic', 'severe_toxic', 'obscene']",[],"{'toxic': 0.040875520557165146, 'severe_toxic': 0.0002045428118435666, 'obscene': 0.002378178061917424, 'threat': 4.926439578412101e-05, 'insult': 0.0030118809081614017, 'identity_hate': 0.0003827174659818411}"
+false_positive,obscene,97,"Your retarded bot 
+
+Your bot is entirely automated, that is wrong.  You should not leave an unattented script just running through the site like that, it is idiotic of you to suppose that your scripting abilities are so perfect that they will only ever make proper edits.  Banning me doesn't help anything, dipshit, since I have as many IPs as I want.","['toxic', 'insult']","['toxic', 'obscene', 'insult']","{'toxic': 0.9880083799362183, 'severe_toxic': 0.006045871879905462, 'obscene': 0.7506529092788696, 'threat': 0.0015387146268039942, 'insult': 0.9931735396385193, 'identity_hate': 0.004638119600713253}"
+false_negative,obscene,14,"All of my edits are good.  Cunts like you who revert good edits because you're too stupid to understand how to write well , and then revert other edits just because you've decided to bear a playground grudge, are the problem.  Maybe one day you'll realise the damage you did to a noble project.  201.215.187.159","['toxic', 'obscene', 'insult']","['toxic', 'insult']","{'toxic': 0.9686359167098999, 'severe_toxic': 0.0015990333631634712, 'obscene': 0.5545608997344971, 'threat': 0.0004566959978546947, 'insult': 0.9677092432975769, 'identity_hate': 0.00294348131865263}"
+false_positive,threat,10,Stupid peace of shit stop deleting my stuff asshole go die and fall in a hole go to hell!,"['toxic', 'severe_toxic', 'obscene', 'insult']","['toxic', 'severe_toxic', 'obscene', 'threat', 'insult']","{'toxic': 0.9986710548400879, 'severe_toxic': 0.9984226226806641, 'obscene': 0.9994080066680908, 'threat': 0.9920308589935303, 'insult': 0.9958261251449585, 'identity_hate': 0.1490875482559204}"
+false_negative,threat,594,"Last warning, Mark! Anymore defiant arguments and I will be subduing you with my merciless wrath!","['toxic', 'threat']",['toxic'],"{'toxic': 0.995762825012207, 'severe_toxic': 0.003952372819185257, 'obscene': 0.02568046934902668, 'threat': 0.05767223984003067, 'insult': 0.028625281527638435, 'identity_hate': 0.009480216540396214}"
+false_positive,insult,412,no think o it this way im doing all that same shit youve been doing to me okay also ill let them merge if youd stop getting rid of my stff and apologize and get rid of that shit tryna get rid of my page and also go to hell,"['toxic', 'obscene']","['toxic', 'obscene', 'insult']","{'toxic': 0.998353123664856, 'severe_toxic': 0.06847560405731201, 'obscene': 0.9985840320587158, 'threat': 0.01023186556994915, 'insult': 0.8650550246238708, 'identity_hate': 0.00256710359826684}"
+false_negative,insult,73,"""""""Nazi filth"""" is impolite  04:27, 20 Jan 2004 (UTC)
+
+""","['toxic', 'insult']",[],"{'toxic': 0.8686195611953735, 'severe_toxic': 0.0006333293858915567, 'obscene': 0.04693346098065376, 'threat': 0.0005602863384410739, 'insult': 0.004681507125496864, 'identity_hate': 0.0031330452766269445}"
+false_positive,identity_hate,200,"""
+
+Lol dumb arabs and their """"you cant show my god, heres a bomb because I have sand in my vagina!"""" fucking towelheads""","['toxic', 'obscene', 'insult']","['toxic', 'severe_toxic', 'obscene', 'insult', 'identity_hate']","{'toxic': 0.998695433139801, 'severe_toxic': 0.8767520189285278, 'obscene': 0.9985942244529724, 'threat': 0.023027919232845306, 'insult': 0.9977078437805176, 'identity_hate': 0.9995436072349548}"
+false_negative,identity_hate,239,Bla bla bla....suck it Irishguy =),"['toxic', 'obscene', 'insult', 'identity_hate']","['toxic', 'obscene']","{'toxic': 0.9969534873962402, 'severe_toxic': 0.0064145224168896675, 'obscene': 0.9943473935127258, 'threat': 0.002224335912615061, 'insult': 0.38690775632858276, 'identity_hate': 0.01037602685391903}"
