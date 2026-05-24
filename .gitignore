@@ -216,3 +216,50 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.checkpoint.ipynb
+
+# React / Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+cache/
+
+# Dataset files
+train.csv
+test.csv
+*.zip
+
+# Large model files
+*.pt
+*.pth
+*.bin
+*.safetensors
