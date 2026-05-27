@@ -1,0 +1,47 @@
+Fairness Analysis Report Draft
+
+================================================================================
+
+
+
+This fairness analysis was conducted using the internal test split of the Google Jigsaw Toxic Comment dataset. The model was evaluated as a multilabel classifier with six output labels: toxic, severe_toxic, obscene, threat, insult, and identity_hate. Since the original Jigsaw dataset does not provide real demographic attributes of the comment author or target group, the sensitive groups in this analysis were approximated using identity-term mentions in the comment text. Therefore, the results should be interpreted as subgroup fairness for comments mentioning identity-related terms, not as fairness across the real identities of users.
+
+
+
+Overall toxic versus non-toxic fairness
+
+--------------------------------------------------------------------------------
+
+The highest false positive rate was found in the sexuality_lgbtq subgroup (FPR = 0.123, n = 179). This means that non-toxic comments in this subgroup were more likely to be incorrectly flagged as toxic. In a moderation system, this type of error can be problematic because normal comments mentioning this group may be unfairly restricted.
+
+The highest false negative rate was found in the nationality_immigration subgroup (FNR = 0.400, n = 83). This means that toxic comments in this subgroup were more likely to be missed by the model. This is also important because harmful comments targeting a group may remain undetected.
+
+The lowest overall F1-score was observed for the disability subgroup (F1 = 0.640). This suggests that the model performance was less stable for this subgroup compared with other groups.
+
+
+
+Per-label fairness
+
+--------------------------------------------------------------------------------
+
+For FPR max min gap, the largest gap appeared in the identity_hate label with a gap of 0.206. This shows that fairness differences are not evenly distributed across all six labels. Some toxicity categories may be more sensitive to identity-term mentions than others.
+
+For FNR max min gap, the largest gap appeared in the identity_hate label with a gap of 1.000. This shows that fairness differences are not evenly distributed across all six labels. Some toxicity categories may be more sensitive to identity-term mentions than others.
+
+For F1 max min gap, the largest gap appeared in the identity_hate label with a gap of 1.000. This shows that fairness differences are not evenly distributed across all six labels. Some toxicity categories may be more sensitive to identity-term mentions than others.
+
+
+
+Subgroup multilabel performance comparison
+
+--------------------------------------------------------------------------------
+
+The subgroup with the lowest multilabel macro-F1 was race_latino (macro-F1 = 0.143), while the highest macro-F1 was observed for religion_muslim (macro-F1 = 0.777). Macro-F1 is useful in this project because it gives equal importance to all labels, including minority labels such as threat and identity_hate.
+
+
+
+Overall interpretation
+
+--------------------------------------------------------------------------------
+
+Overall, this analysis supports Objective 3 of the project because it goes beyond general accuracy and examines whether the BERT-based toxicity classifier behaves consistently for different identity-term subgroups. The results can help identify which groups or labels require more careful evaluation before the model is used in a real moderation setting. However, the analysis also has a limitation: the Jigsaw dataset does not provide real sensitive attribute annotations, so keyword-based identity groups are only an approximation. Future work can use datasets with explicit identity annotations, such as Civil Comments, to perform a stronger external fairness evaluation.
